@@ -2498,11 +2498,8 @@ C Y
 B Z
 A Y
 C Y"
-
 a = a.chars.map { |el| el == "\n" ? "o" : el }.join.split("o").map { |el| el.split(" ") }
-
 result = 0
-
 a.each do |el|
   if el[0] == "A"
     if el[1] == "X"
